@@ -26,7 +26,13 @@ flake8 = "^3.9.2"
 black = "^21.6b0"
 isort = "^5.9.1"
 pre-commit = "^2.13.0"
-awscli = "^1.19.105"
+commitizen = "^2.17.12"
+
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.62"
+tag_format = "v$version"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

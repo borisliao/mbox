@@ -41,7 +41,7 @@ Uses SponsorBlock data licensed used under CC BY-NC-SA 4.0. More details: <https
     ```bash
     poetry install
     ```
-    
+
 5. Activate virtual environment.
 
     ```bash
@@ -51,7 +51,7 @@ Uses SponsorBlock data licensed used under CC BY-NC-SA 4.0. More details: <https
 6. Install pre-commit to identify issues in code before committing changes.
 
     ```bash
-    pre-commit install
+    pre-commit install --install-hooks -t pre-commit -t commit-msg
     ```
 
 7. Follow [FFmpeg Installation](https://github.com/borisliao/mbox/wiki/FFmpeg-Installation) guide.
