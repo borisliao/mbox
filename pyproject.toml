@@ -18,6 +18,8 @@ python-dotenv = "0.17.1"
 rsa = "4.7.2"
 boto3 = "^1.17.105"
 moto = {extras = ["dynamodb2"], version = "^2.1.0"}
+mechanize = "^0.4.5"
+googlesearch-python = "^1.0.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
